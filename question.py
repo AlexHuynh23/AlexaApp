@@ -1,3 +1,6 @@
+def testing(prompt):
+    print("Testing %s..." % prompt)
+
 class Question():
     def __init__(self, prompt, posAnswers):
         self.prompt = prompt
@@ -22,6 +25,9 @@ class Question():
     def getPrompt(self):
         return self.prompt
     
+if __name__ == "__main__":
+    testing("getPrompt")
     
+
 
 
